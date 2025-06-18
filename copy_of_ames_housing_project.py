@@ -37,7 +37,7 @@ import seaborn as sns
 from google.colab import drive
 drive.mount('/content/drive')
 
-df = pd.read_csv("/content/drive/MyDrive/Colab_Notebooks/Feature Engineering & Validation & Linear Regression/DATA-1/Ames_Housing_Data.csv")
+df = pd.read_csv("") # file path with uploaded file
 
 df_traditional = df.copy()
 
